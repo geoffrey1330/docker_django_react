@@ -17,7 +17,8 @@ A full stack multiplayer Tic Tac Toe game built with React, Django framework,dja
 
 In oder to start the game, do the following:
 
-### 1) Make sure you have docker installed in your machine(windows,mac,linux)
+### 1) Make sure you have docker installed in your machine(windows,mac,linux) [link to get docker](https://docs.docker.com/get-docker/)
+
 
 ### then run the following command on the terminal
 ```
