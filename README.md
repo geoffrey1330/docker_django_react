@@ -1,4 +1,4 @@
-# A multiplayer realtime Tic Tac Toe game
+# A dockerized version of the multiplayer realtime Tic Tac Toe game
 
 # [Play game](https://jedah.netlify.app/) 
 
@@ -17,19 +17,17 @@ A full stack multiplayer Tic Tac Toe game built with React, Django framework,dja
 
 In oder to start the game, do the following:
 
-### 1) Start backend (default on localhost:8000)
+### 1) Make sure you have docker installed in your machine(windows,mac,linux)
+
+### then run the following command on the terminal
+```
+git clone https://github.com/geoffrey1330/docker_django_react.git
+cd docker_django_react
+
+docker-compose -f docker-compose.yml up -d
 
 ```
-$ pipenv shell
-$ cd backend
-$ python manage.py runserver
-```
 
-### 2) Start frontend (default on localhost:3000)
+### 2) Start application (default on localhost:3000) on the browser
 
-```
-$ cd frontend
-$ yarn start
-```
 
-Then, open [http://localhost:3000](http://localhost:3000) to view the game in the browser. Have fun 🕹!
